@@ -11,23 +11,25 @@ This project is a fork of v2ray, with tls module replaced by [utls](https://gith
 - ```cd v2ray-core```
 - ```go get github.com/emc2314/websocket@master```
 - ```mkdir build```
-- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=emc2314  -X v2ray.com/core.version=4.22.1" .\main\```
+- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=emc2314  -X v2ray.com/core.version=4.23.1" .\main\```
 
 # Usage
 
-Note: Use ONLY on client.
+Note: Use **ONLY** on client.
 
-Replace ```wv2ray.exe``` in your V2rayN (or any other GUI client) folder.
-
-For those who use websocket+tls together with an http2 capable server (e.g. cloudflare cdn/caddy/nginx with http2), append "/h2" to your websocket path for client side configuration. For example, if your websocket path is ```/ray```, replace it with ```/ray/h2```. **No need to change your server configuration.**
+- Update V2rayN to 3.18 or above.
+- Update ```v2ctl.exe``` in your V2rayN folder to 4.23.1 or above.
+- Delete ```v2ray.exe``` in your V2rayN folder. Because V2rayN will use ```v2ray.exe``` instead of ```wv2ray.exe``` sometimes.
+- Replace ```wv2ray.exe``` in your V2rayN folder.
+- Enjoy!
 
 # Details
 
-For tls in v2ray and ws+tls, [Chrome 72 ClientHello](https://tlsfingerprint.io/id/bbf04e5f1881f506) is used.
+For tls in v2ray, [Chrome 72 ClientHello](https://tlsfingerprint.io/id/bbf04e5f1881f506) is used.
 
 However, this fingerprint has http/2 as well as http/1.1 in ALPN. If the server supports http/2, they will negotiate the protocol as http/2, which has not been supoorted by the go websocket yet.
 
-So, if you append "/h2" to your path, v2ray will notice (and remove the trailing "/h2") and use [another popular fingerprint](https://tlsfingerprint.io/id/58b1a38e124153a0) which has no http/2 in ALPN extention.
+So, ws+tls will use [another popular fingerprint](https://tlsfingerprint.io/id/58b1a38e124153a0) which has no http/2 in ALPN extention.
 
 # License
 
