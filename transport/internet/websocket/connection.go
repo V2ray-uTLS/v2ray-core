@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/emc2314/websocket"
+	"github.com/V2ray-uTLS/websocket"
 	"v2ray.com/core/common/buf"
 	"v2ray.com/core/common/errors"
 	"v2ray.com/core/common/serial"

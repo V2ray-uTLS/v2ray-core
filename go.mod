@@ -3,7 +3,7 @@ module v2ray.com/core
 go 1.13
 
 require (
-	github.com/emc2314/websocket v1.4.2-0.20200216064138-a2a9d01a834a
+	github.com/V2ray-uTLS/websocket v1.4.2-0.20200216064138-a2a9d01a834a
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
 	github.com/golang/mock v1.4.0
 	github.com/golang/protobuf v1.4.2
