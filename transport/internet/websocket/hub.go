@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/emc2314/websocket"
+	"github.com/V2ray-uTLS/websocket"
 	"v2ray.com/core/common"
 	"v2ray.com/core/common/net"
 	http_proto "v2ray.com/core/common/protocol/http"

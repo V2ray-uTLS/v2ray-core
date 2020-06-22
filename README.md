@@ -4,26 +4,26 @@ This project is a fork of v2ray, with tls module replaced by [utls](https://gith
 
 ***Note: NO WARRANT FOR ANY KIND OF USAGE. DO NOT FILE ANY ISSUE. MAY NOT UPDATE ANYMORE.***
 
-# Windows Build
+## Windows Build
 
 - Install Go
-- ```git clone https://github.com/emc2314/v2ray-core.git```
+- ```git clone https://github.com/V2ray-uTLS/v2ray-core.git```
 - ```cd v2ray-core```
-- ```go get github.com/emc2314/websocket@master```
+- ```go get github.com/V2ray-uTLS/websocket@master```
 - ```mkdir build```
-- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=emc2314  -X v2ray.com/core.version=4.23.1" .\main\```
+- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=V2ray-uTLS  -X v2ray.com/core.version=4.25.0" .\main\```
 
-# Usage
+## Usage
 
 Note: Use **ONLY** on client.
 
 - Update V2rayN to 3.18 or above.
-- Update ```v2ctl.exe``` in your V2rayN folder to 4.23.1 or above.
+- Update ```v2ctl.exe``` in your V2rayN folder to 4.25.0 or above.
 - Delete ```v2ray.exe``` in your V2rayN folder. Because V2rayN will use ```v2ray.exe``` instead of ```wv2ray.exe``` sometimes.
 - Replace ```wv2ray.exe``` in your V2rayN folder.
 - Enjoy!
 
-# Details
+## Details
 
 For tls in v2ray, [Chrome 72 ClientHello](https://tlsfingerprint.io/id/bbf04e5f1881f506) is used.
 
@@ -31,7 +31,7 @@ However, this fingerprint has http/2 as well as http/1.1 in ALPN. If the server 
 
 So, ws+tls will use [another popular fingerprint](https://tlsfingerprint.io/id/58b1a38e124153a0) which has no http/2 in ALPN extention.
 
-# License
+## License
 
 For v2ray part of code: [The MIT License (MIT)](https://raw.githubusercontent.com/v2ray/v2ray-core/master/LICENSE)
 
