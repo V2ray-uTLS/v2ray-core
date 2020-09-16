@@ -16,8 +16,8 @@ github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymF
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1mIlRU8Am5FuJP05cCM98=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
-github.com/emc2314/websocket v1.4.2-0.20200216064138-a2a9d01a834a h1:41YXmiaLi89fhVSL/GbOyDZS5lUudQC3B9DeXvep2eM=
-github.com/emc2314/websocket v1.4.2-0.20200216064138-a2a9d01a834a/go.mod h1:N/5mbzur+aRyy2HWYrRwVQpo74Nci+zZn69e1oiHHb4=
+github.com/V2ray-uTLS/websocket v1.4.2-0.20200216064138-a2a9d01a834a h1:41YXmiaLi89fhVSL/GbOyDZS5lUudQC3B9DeXvep2eM=
+github.com/V2ray-uTLS/websocket v1.4.2-0.20200216064138-a2a9d01a834a/go.mod h1:N/5mbzur+aRyy2HWYrRwVQpo74Nci+zZn69e1oiHHb4=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfbm0A=
 github.com/golang/mock v1.4.4 h1:l75CXGRSwbaYNpl/Z2X1XIIAMSCquvXgpVZDhwEIJsc=

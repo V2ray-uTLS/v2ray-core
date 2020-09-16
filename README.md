@@ -7,11 +7,11 @@ This project is a fork of v2ray, with tls module replaced by [utls](https://gith
 # Windows Build
 
 - Install Go
-- ```git clone https://github.com/emc2314/v2ray-core.git```
+- ```git clone https://github.com/V2ray-uTLS/v2ray-core.git```
 - ```cd v2ray-core```
-- ```go get github.com/emc2314/websocket@master```
+- ```go get github.com/V2ray-uTLS/websocket@master```
 - ```mkdir build```
-- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=emc2314  -X v2ray.com/core.version=4.23.1" .\main\```
+- ```go build -o build\wv2ray.exe -ldflags "-H windowsgui -s -w -X v2ray.com/core.codename=utls -X v2ray.com/core.build=V2ray-uTLS  -X v2ray.com/core.version=4.23.1" .\main\```
 
 # Usage
 

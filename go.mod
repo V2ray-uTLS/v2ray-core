@@ -20,6 +20,6 @@ require (
 	google.golang.org/grpc v1.32.0
 	google.golang.org/protobuf v1.25.0
 	h12.io/socks v1.0.1
-	github.com/emc2314/websocket v1.4.2-0.20200216064138-a2a9d01a834a
+	github.com/V2ray-uTLS/websocket v1.4.2-0.20200216064138-a2a9d01a834a
 	github.com/refraction-networking/utls v0.0.0-20190909200633-43c36d3c1f57
 )
