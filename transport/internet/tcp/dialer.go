@@ -21,7 +21,7 @@ func Dial(ctx context.Context, dest net.Destination, streamSettings *internet.Me
 	}
 
 	if config := tls.ConfigFromStreamSettings(streamSettings); config != nil {
-		tlsConfig := config.GetTLSConfig(tls.WithDestination(dest), tls.WithNextProto("h2"))
+		tlsConfig := config.GetTLSConfig(tls.WithDestination(dest))
 		conn = tls.UClient(conn, tlsConfig)
 	}
 

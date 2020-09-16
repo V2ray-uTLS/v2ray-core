@@ -51,8 +51,6 @@ type Outbound struct {
 	Target net.Destination
 	// Gateway address
 	Gateway net.Address
-	// ResolvedIPs is the resolved IP addresses, if the Targe is a domain address.
-	ResolvedIPs []net.IP
 }
 
 type SniffingRequest struct {
@@ -70,6 +68,12 @@ type Content struct {
 	Attributes map[string]interface{}
 
 	SkipRoutePick bool
+}
+
+// Sockopt is the settings for socket connection.
+type Sockopt struct {
+	// Mark of the socket connection.
+	Mark int32
 }
 
 func (c *Content) SetAttribute(name string, value interface{}) {
