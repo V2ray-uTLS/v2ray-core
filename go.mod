@@ -3,7 +3,7 @@ module v2ray.com/core
 go 1.15
 
 require (
-	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d // indirect
+	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d
 	github.com/dgryski/go-metro v0.0.0-20200812162917-85c65e2d0165 // indirect
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.2
@@ -21,5 +21,5 @@ require (
 	golang.org/x/sys v0.0.0-20200831180312-196b9ba8737a
 	google.golang.org/grpc v1.32.0
 	google.golang.org/protobuf v1.25.0
-	h12.io/socks v1.0.1
+	h12.io/socks v1.0.2
 )
