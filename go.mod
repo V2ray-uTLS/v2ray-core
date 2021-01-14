@@ -3,7 +3,7 @@ module v2ray.com/core
 go 1.15
 
 require (
-	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d // indirect
+	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d
 	github.com/dgryski/go-metro v0.0.0-20200812162917-85c65e2d0165 // indirect
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.2
@@ -12,7 +12,7 @@ require (
 	github.com/pires/go-proxyproto v0.1.3
 	github.com/refraction-networking/utls v0.0.0-20200820030103-33a29038e742
 	github.com/seiflotfy/cuckoofilter v0.0.0-20200511222245-56093a4d3841
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/xiaokangwang/VSign v0.0.0-20200828155424-dc1c86b73fbf
 	go.starlark.net v0.0.0-20200901195727-6e684ef5eeee
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
