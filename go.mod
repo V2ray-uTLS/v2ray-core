@@ -3,12 +3,12 @@ module v2ray.com/core
 go 1.15
 
 require (
-	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d // indirect
+	github.com/V2ray-uTLS/websocket v1.4.2-0.20200916155532-70dba6293c6d
 	github.com/dgryski/go-metro v0.0.0-20200812162917-85c65e2d0165 // indirect
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.2
 	github.com/google/go-cmp v0.5.2
-	github.com/miekg/dns v1.1.31
+	github.com/miekg/dns v1.1.40
 	github.com/pires/go-proxyproto v0.1.3
 	github.com/refraction-networking/utls v0.0.0-20200820030103-33a29038e742
 	github.com/seiflotfy/cuckoofilter v0.0.0-20200511222245-56093a4d3841
